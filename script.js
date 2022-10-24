@@ -6,4 +6,8 @@ openClose.addEventListener("click",()=>{
     
 })
 
+function mostrarContenido(){
+    document.getElementById('contenido').style.display= 'block';
+    document.getElementById('button').style.display= 'none';
 
+}
